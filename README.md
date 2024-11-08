@@ -54,7 +54,7 @@ A sample / starter configuration object is provided.
 ``from tableau_api_lib import sample_config``
 ``print(sample_config)``
 
-The config object can have multiple environments. The default environment is defined as 'tableau_prod', and you can change this if needed by specifying an 'env' parameter when calling the TabelauServerConnection class.
+The config object can have multiple environments. The default environment is defined as 'tableau_prod', and you can change this if needed by specifying an 'env' parameter when calling the TableauServerConnection class.
 For each environment you have, define them. For example:
 
     tableau_config = {
